@@ -16,6 +16,8 @@ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+
 iconos -->
 <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="../js/region_comuna.js"></script>
+
 
     <title>Onda</title>
     <!-- Links
@@ -37,8 +39,7 @@ Seleccion de region
  
 <header id="main-header">    
 		<a id="logo-header" href="index.php">
-			<span class="site-name">Onda</span>
-			<span class="site-desc">Ropa / Estampados / Serigrafia</span>
+        <img src="img/logo_solo_onda.png" alt="..." height="60" width="180">
 		</a>
 
     <!-- Enlaces de navegacion -->
@@ -57,9 +58,13 @@ Seleccion de region
     <!--Seleccion de region-->
     <section class="hero">
     <div class="contenido-hero">
-        <h2 class="titulo">Onda </h2>
+        <a href="index.php">
+        <img src="img/logo_sin_bordes.png" class="d-block w-150" alt="..." height="200">
+        </a>
         <div class="contenedor">
                 <p>
+                    <select id="regiones"></select>
+                    <select id="comunas"></select>
                     <select class="form-select" aria-label="Default select example" style="width:800px" >
                         <option selected>Selecciona tu region</option>
                         <option value="1">Santiago</option>
