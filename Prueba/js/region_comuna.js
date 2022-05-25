@@ -74,6 +74,8 @@ jQuery(document).ready(function () {
 		iRegion++;
 	});
 
+
+
 	jQuery('#regiones').html(htmlRegion);
 	jQuery('#comunas').html(htmlComunas);
 
