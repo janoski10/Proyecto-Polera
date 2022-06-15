@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CHAT EN VIVO NO MOVER
+-->
+
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="6fc5633e-000c-447f-a300-38bbbf896313";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
     <!-- Bootstrap
 plantillas
 -->
@@ -48,7 +54,7 @@ Seleccion de region
         <ul>
             <li><a href="index.php">Inicio</a></li>
             <li><a href="disenadores.php">Disenadores</a></li>
-            <li><a href="diseno.php">Crea tu diseno</a></li>
+            <li><a href="diseno.php">Crea tu diseño</a></li>
             <li><a href="contacto.php"></a></li>
         </ul>
     </nav>
@@ -87,3 +93,4 @@ Seleccion de region
             </div>
         </div>
     </section>
+</body>

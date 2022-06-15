@@ -1,3 +1,4 @@
+
 <p></p>
 <!-- Pie de pagina  
 Grupo 1 : Logo, SOBRE NOSOTROS y redes sociales
@@ -8,7 +9,7 @@ Grupo 2 : Mensaje generico de derechos reservados-->
             <div class="box">
                 <figure> <!-- conteniodo indeopendiente, logo que redirecciona -->
                     <a href="index.php">
-                        <img src="../img/logoo.png" alt="Onda">
+                    <img src="img/logoo.png" class="d-block w-150" alt="..." height="200">
                     </a>
                 </figure>
             </div>
